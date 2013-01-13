@@ -1,0 +1,38 @@
+
+// loading window style courtesy of Cesar Estrada @maccesar
+// http://developer.appcelerator.com/question/138202/common-js-module-for-activity-indicator#answer-240644
+
+"#activityWindow":{
+	height:80,
+    width:200,
+    touchEnabled:false,
+},
+"#activityIndicator":{
+	message: 'Loading...',
+	//font: {fontFamily:'Monda',fontWeight:'bold',fontSize:'16dp'},
+	color : 'white',
+    height : 60,
+    width : 180,
+    font : {fontSize:18,fontWeight:'bold'},
+    touchEnabled:false,
+    indicatorColor:'white',
+},
+
+"#transparentView":{
+	height:60,
+    width:180,
+    backgroundColor:'#000',
+    borderRadius:10,
+    opacity:0.50,
+    touchEnabled:false
+},
+
+"#activityIndicator[platform=ios]":{
+	style:Ti.UI.iPhone.ActivityIndicatorStyle.PLAIN,
+	borderWidth: 0, borderRadius: 10, 
+	//backgroundColor: 'black',
+},
+
+"#activityIndicator[platform=android]":{
+	style:Ti.UI.ActivityIndicatorStyle.PLAIN,
+}

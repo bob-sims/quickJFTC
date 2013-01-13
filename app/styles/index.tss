@@ -1,0 +1,22 @@
+".window": {
+	backgroundImage: '/img/ipad-BG.png',
+	barImage: '/img/menubar.png',
+	backgroundColor: 'transparent',
+},
+"Tab": {
+	backgroundColor: 'transparent',	
+},
+"TabGroup":{
+	backgroundColor: 'transparent',
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+},
+

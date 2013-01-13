@@ -1,0 +1,24 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Events" icon="/img/light_shield.png">
+			<Window class="window" id="eventsWindow" title="Events">			
+				<Require src="events" id="events"/>				
+			</Window>
+		</Tab>
+		<Tab title="News" icon="/img/light_signal_trans.png">
+			<Window class="window" title="News">
+				<Require src="news"/>
+			</Window>
+		</Tab>
+		<Tab title="Magazine" icon="/img/light_book.png">
+			<Window class="window" title="Magazine">
+				<Require src="magazines"/>
+			</Window>
+		</Tab>
+		<Tab title="Videos" icon="/img/light_TV.png">
+			<Window class="window" title="Videos">
+				<Require src="videos"/>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

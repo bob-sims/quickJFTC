@@ -1,0 +1,5 @@
+<Alloy>
+	<TableView id="newsList" onClick="showItem"/>
+	<View id="transparentView"/>
+	<ActivityIndicator id="activityIndicator"/>
+</Alloy>

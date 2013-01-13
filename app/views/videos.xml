@@ -1,0 +1,5 @@
+<Alloy>
+	<TableView id="videoTable" onClick="showItem"/>
+	<View id="transparentView"/>
+	<ActivityIndicator id="activityIndicator"/>
+</Alloy>

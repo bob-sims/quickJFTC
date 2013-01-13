@@ -1,0 +1,67 @@
+
+"#row": {
+	hasChild: true,
+	rightImage:'/img/ipad-arrow.png',
+	backgroundImage:'/img/list-item-bg.png',
+	//backgroundColor:'yellow',
+},
+
+".image": {
+	height: 60,
+	width: 60,
+	left: 10,
+	top: 10,
+	bottom: 10
+},
+
+".image_frame": {
+	height: 70,
+	width: 70,
+	left: 3,
+	top: 3,
+	bottom: 5,
+	image:"/img/list-frame.png",
+	//zindex:10,
+},
+
+".container": {
+	top: 5,
+	bottom: 5,
+	left: 80,
+	right: 5,
+	layout: 'vertical',
+	height: Ti.UI.SIZE,
+},
+
+".title": {
+	left: 0,
+	font:{fontWeight:'bold',fontSize:'16dp'},
+	color:'#094B7B',
+	height: Ti.UI.SIZE,
+	shadowColor:'white',shadowOffset:{x:0,y:1}
+},
+
+".title[platform=android]": {
+	font:{fontFamily:'Monda-Bold',fontWeight:'bold',fontSize:'12dp'},
+},
+
+".title[platform=ios]": {
+	font:{fontFamily:'Monda',fontWeight:'bold',fontSize:'16dp'},
+},
+
+".intro": {
+	top: 5,
+	left: 0,
+	font:{fontSize:'14dp'},
+	color:'#303030',
+	height: Ti.UI.SIZE,
+	shadowColor:'white',shadowOffset:{x:0,y:1}
+},
+
+".intro[platform=android]": {
+	font:{fontFamily:'Monda-Regular',fontSize:'10dp'},
+},
+
+".intro[platform=ios]": {
+	font:{fontFamily:'Monda'},
+}

@@ -1,0 +1,10 @@
+<Alloy>
+	<TableViewRow id="row">
+		<ImageView id="image_frame" class="image_frame"/>
+		<ImageView id="image" class="image"/>
+		<View id="container" class="container">
+			<Label id="title" class="title">Test 1</Label>
+			<Label id="intro" class="intro">Intro</Label>
+		</View>
+	</TableViewRow>
+</Alloy>
